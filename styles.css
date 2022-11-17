@@ -1,0 +1,50 @@
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    aspect-ratio: 1;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+
+.clicker-button {
+    background-image: url("brandon.gif");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    aspect-ratio: 1;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0246ff;
+    transition: width 0.1254s;
+}
+.YodaNumber {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.YodaNumber > p {
+    margin:0
+}
+
+.upgrade-button {
+    position: absolute;
+    top: 95%;
+    left: 15%;
+    width: 12em;
+    height: 3em;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: ;
+    border-radius: 15px;
+    transition: width 0.1254s;
+}
